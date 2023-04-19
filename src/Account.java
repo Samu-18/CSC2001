@@ -1,8 +1,4 @@
 //Samukelile Jama
-//10 April 2023
-//main class (WeConnectApp)
-
-//Samukelile Jama
 //12 April 2023
 //Account class
 //Account, profile description and list of posts
@@ -65,7 +61,7 @@ class Account implements Comparable<Account> {
 
 
    /** mutator methods
-   **/
+   */
     public void setDescription(String description){
         description = description;
     }
@@ -76,7 +72,7 @@ class Account implements Comparable<Account> {
 
    /**
     Returns a string representation of all posts in the Posts collection.
- **/
+ */
       private String print() {
       // Create a new ArrayList<Post> to store the posts
       ArrayList<Post> Posts = new ArrayList<>();

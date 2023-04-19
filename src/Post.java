@@ -1,7 +1,8 @@
 //Samukelile Jama
 // 10 April 2023
 //Post clas
-//The post has at least a title, name of video clip file and number of likes.
+/**The post has at least a title, name of video clip file and number of likes.
+*/
 
 public class Post {
 
@@ -9,13 +10,15 @@ public class Post {
     String fileName;
     int likes;
     
-    //constructor
+    /**constructor
+    */
     Post(String title, String fileName, int Likes){
         this.title=title;
         this.fileName =fileName;
         this.likes =likes;
     }
-    //accessor and mutator methods
+    /**accessor and mutator methods
+    */
    public String getTitle(){
       return title;
    }

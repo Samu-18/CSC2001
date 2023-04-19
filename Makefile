@@ -15,6 +15,8 @@ clean:
 	rm $(BINDIR)/*.class
 
 run:
-	java -cp bin MediaApp
+	java -cp bin WeConnectApp
+doc:
+	javacdoc -sourcepath ./src -d ./docs -subpackages .
 
 
